@@ -1,0 +1,36 @@
+{
+  "name": "mongo-scraper",
+  "version": "1.0.0",
+  "description": "Web app that allows the user to comment on the latest news stories scraped from the internet.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrhunter83/mongo-scraper.git"
+  },
+  "author": "Edward Hunter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrhunter83/mongo-scraper/issues"
+  },
+  "homepage": "https://github.com/mrhunter83/mongo-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.13.3",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "news",
+    "scraper"
+  ]
+}
